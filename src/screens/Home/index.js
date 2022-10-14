@@ -28,10 +28,10 @@ const Home = ({ navigation }) => {
     <ImageBackground
       source={bgImg}
       style={styles.container}
-      imageStyle={{ resizeMode: "contain", transform: [{ scale: 2.3 }] }}
+      imageStyle={{ resizeMode: "contain", transform: [{ height: 100 }] }}
     >
       <Text style={styles.title}>Jogo de Cartas</Text>
-      <View style={{ flex: 2, justifyContent: "center", paddingTop: "25%" }}>
+      <View style={{ flex: 2, justifyContent: "center", paddingTop: "33.5%" }}>
         <Button title="Iniciar Partida" onPress={inciarPartida} />
       </View>
     </ImageBackground>
